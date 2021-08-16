@@ -1,8 +1,8 @@
 {
-    "name": "dynamikaweb/yii2-template",
-    "description": "",
+    "name": "dynamikaweb/yii2-multiple-input",
+    "description": "Multiple input field for reactive form using vue.js",
     "type": "yii2-extension",
-    "keywords": ["dynamika", "yii2"],
+    "keywords": ["dynamika", "yii2", "vue", "multiple-input"],
     "license": "BSD-3-Clause",
     "authors": [
         {
@@ -17,8 +17,8 @@
         }
     ],
     "support": {
-        "issues": "http://github.com/dynamikaweb/yii2-template/issues",
-        "source": "http://github.com/dynamikaweb/yii2-template"
+        "issues": "http://github.com/dynamikaweb/yii2-multiple-input/issues",
+        "source": "http://github.com/dynamikaweb/yii2-multiple-input"
     },
     "minimum-stability": "dev",
     "require": {
@@ -27,7 +27,7 @@
     },
     "autoload": {
         "psr-4": {
-            "dynamikaweb\\": "src"
+            "dynamikaweb\\multipleinput\\": "src"
         }
     },
     "repositories": [
